@@ -1,0 +1,135 @@
+.background{
+    background-color: rgb(192, 190, 190);
+}
+
+.flex-container{
+    display:  flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+.menu ul {
+    display: flex;
+}
+
+li { 
+    display: inline;
+}
+  
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+  
+.logo img{
+    width: 50%;
+}
+
+.serchbar{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.searchbar button{
+    background-color: orange;
+}
+
+.banner img{
+    width:100%;
+    height: 300px;
+}
+
+.service {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.service-detail {
+    display: flex;
+    background-color: white;
+    margin-left: 9px;
+    width: 23%;
+}
+
+.service-detail p{
+    display: flex;
+    align-items: center;
+    color: orange;
+    text-align: center;
+}
+
+.content{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Best{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color:rgb(16, 16, 221);
+    font-size: 23px;
+}
+
+p{
+    color: white 
+}
+
+.Best-left{
+    margin: 10px;
+    width: 45%;
+}
+.Best-left img{
+    width: 100%;
+    height: 500px;
+}
+
+.Best-right-2{
+    display: flex;
+    width: 600px;
+}
+
+.Best-right-2 img{
+    width: 90%;
+    height: 225px;
+    margin-left: 20%;
+}
+
+.Acc{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.Acc-detail{
+    border: 1px solid #13130e;
+    text-align: center;
+    margin-left: 2%;
+}
+.Acc-detail img{
+    width: 90%;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.Acc-detail div{
+    padding: 10px 0;
+    background-color: rgba(255, 166, 0, 0.89);
+    color: white;
+    
+}
+
+.footer{
+    background-color: rgb(65, 99, 192);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
